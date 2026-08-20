@@ -6,6 +6,19 @@ body{
     height: 100vh;
 }
 
+button{
+    margin-left: 1px;
+    padding: 2px 10px;
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(0 0 0 / 1);
+    cursor: pointer;
+
+    &:hover{
+        background-color: rgb(0 0 0 / 0.9);
+    }
+}
+
 /*--Header--*/
 .header{
     display: flex;
@@ -67,7 +80,7 @@ main{ /*demo*/
     box-sizing: border-box;
 }
 .grid-box:hover{
-    background-color: blue;
+    background-color: black;
 }
 
 
