@@ -52,13 +52,18 @@ main{ /*demo*/
     }
 }
 
+.grid{
+    border-left: 1px solid rgb(0 0 0 / 0.1);
+    border-top: 1px solid rgb(0 0 0 / 0.1);
+}
 .grid-row{
     display: flex;
 }
 .grid-box{
     width: 1px;
     height: 1px;
-    border: 1px solid rgb(0 0 255 / 0.1);
+    border-right: 1px solid rgb(0 0 0 / 0.1);
+    border-bottom: 1px solid rgb(0 0 0 / 0.1);
     box-sizing: border-box;
 }
 .grid-box:hover{
@@ -69,8 +74,9 @@ main{ /*demo*/
 
 /*--Footer--*/
 .footer{
-    display: fixed;
+    position: fixed;
     bottom: 0;
+    width: 100%;
     text-align: center;
     color: white;
 }
@@ -95,7 +101,7 @@ main{ /*demo*/
     justify-content: center;
     width: 300px;
     background-color: orangered;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 20px;
 
     h2,
