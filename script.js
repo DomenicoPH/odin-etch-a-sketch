@@ -22,7 +22,7 @@ closeBtn.addEventListener('click', () => {
 function createGrid(gridSize){
     if(gridSize > 100){
         alert.style.display = 'flex';
-        errorText.textContent = 'Grid size must be less than 100';
+        errorText.textContent = 'Grid size cannot be more than 100';
     } else if(gridSize < 1){
         alert.style.display = 'flex';
         errorText.textContent = 'Grid size must be greater than 0';
